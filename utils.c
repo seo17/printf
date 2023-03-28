@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if a char is printable
+ * is_printable - Evaluates if a char is printable.
  * @c: Char to be evaluated.
  *
  * Return: 1 if c is printable, 0 otherwise
@@ -15,7 +15,7 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code - Append ascci in hexadecimal code to buffer
+ * append_hexa_code - Append ascci in hexadecimal code to buffer.
  * @buffer: Array of chars.
  * @i: Index at which to start appending.
  * @ascii_code: ASSCI CODE.
@@ -69,9 +69,9 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd - Casts a number to the specified size
- * @num: Number to be casted
- * @size: Number indicating the type to be casted
+ * convert_size_unsgnd - Casts a number to the specified size.
+ * @num: Number to be casted.
+ * @size: Number indicating the type to be casted.
  *
  * Return: Casted value of num
  */
